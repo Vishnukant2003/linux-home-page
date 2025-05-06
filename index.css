@@ -1,0 +1,118 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  height: 100px;
+  font-size: 30px;
+}
+.img{
+    background-color: #1abc9c;
+    color: white;
+    text-align: center;
+    padding: 80px 20px;
+  
+}
+.section{
+  background-color: white;
+  align-items: center;
+  padding: 20px;
+}
+.p{
+  font-size: 20px;
+  text-align: center;
+}
+.Subscribe{
+  color: white;
+  text-align: center;
+  padding: 20px;
+  font-size: 20px;
+}
+.email{
+  height: 30px;
+  width: 300px;
+}
+.button{
+  height: 30px;
+  width: 100px;
+  cursor: pointer;
+}
+.grass{
+  color:  #333;
+  text-align: center;
+}
+.cart{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 100px;
+  margin-bottom: 100px;
+  gap: 70px;
+}
+
+.child{
+
+  border: solid 1px grey ;
+  height: 250px;
+  width: 250px;
+  text-align: center;
+  box-shadow: #555  5px 5px 5px 5px;
+  border-radius: 5px;
+  cursor: pointer s-resize;
+}
+.child img {
+  width: 100px;
+  height: 80px;
+  margin-bottom: 15px;
+}
+
+.child h2 {
+  font-size: 18px;
+  color: #333;
+  margin: 10px 0 5px;
+}
+
+.child p {
+  font-size: 14px;
+  color: #555;
+}
+.footer {
+  background: #397b78;
+  color: white;
+  padding: 40px 0;
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.col {
+  flex: 1;
+  min-width: 250px;
+  margin: 20px;
+}
+
+.col h3 {
+  margin-bottom: 10px;
+}
+
+.col a {
+  color: #3498db;
+  text-decoration: none;
+}
+
+.col a:hover {
+  color: #1abc9c;
+}
